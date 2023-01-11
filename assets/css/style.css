@@ -1,0 +1,50 @@
+ion-icon {
+  color: whitesmoke;
+  --ionicon-stroke-width: 80px;
+}
+
+.green {
+  background-color: green;
+}
+.yellow {
+  background-color: rgb(195, 195, 33);
+}
+
+.red {
+  background-color: rgb(250, 93, 93);
+}
+
+#jumbotron {
+  font-weight: 600;
+  background-color: rgb(14, 15, 94);
+}
+
+#search-city {
+  background-color: grey;
+}
+.btn {
+  background-color: rgb(107, 20, 20);
+}
+.btn-s1 {
+  padding: 10px 20px;
+  font-size: 20px;
+  border-radius: 10px;
+  width: 89%;
+  background-color: grey;
+}
+
+.form-input {
+  width: 92%;
+}
+.card-header {
+  background-color: rgb(32, 32, 56);
+  color: black;
+}
+
+.cardBody {
+  background-color: rgb(32, 32, 56);
+}
+
+.card-body {
+  background-color: rgb(32, 32, 56);
+}
