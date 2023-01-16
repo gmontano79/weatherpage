@@ -139,7 +139,7 @@ var saveSearchedCities = function () {
 };
 
 var loadSearchedCities = function () {
-  cities = JSON.parse(localStorage.getItem("cities"));
+  cities = JSON.parse(localStorage.getItem("cities")) || [];
   console.log(cities);
   var citiesFiltered = cities.filter(function (value, index, self) {
     return (
